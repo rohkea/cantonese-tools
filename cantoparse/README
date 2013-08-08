@@ -1,0 +1,23 @@
+A dead-simple program that appends definitions and transcription to Chinese
+(Cantonese) words.
+
+The program itself is written in C, but to re-generate the wordlist you’ll need
+Chicken Scheme.
+
+
+WARNING! No wordlist is included in this version!
+
+Generate your own from CantoFish, Cantonese CC-EDICT or (for Mandarin)
+CC-EDICT data!
+
+
+My wordlist uses CantoFish Cantonese dictionary, derived from CC-EDICT and
+therefore distributed under CC-BY-SA. If you wish, you can use a different
+dictionary (to get Mandarin readings, you can use the CC-CEDICT).
+
+All the dictionary data is stored in file.
+
+Program reads stdin and outputs stdout. If you need something else, use
+input/output redirection.
+
+The output format is likely to be changed in future versions. Use with care.
